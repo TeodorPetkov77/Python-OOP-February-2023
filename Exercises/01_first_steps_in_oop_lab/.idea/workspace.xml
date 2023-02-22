@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d46622b-907b-4cc9-ba5f-76397f34ee86" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/01_first_steps_in_oop_lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/01_first_steps_in_oop_lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_rhombus_of_stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_rhombus_of_stars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_scope_mess.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_scope_mess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_class_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_class_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_music.py" beforeDir="false" afterPath="$PROJECT_DIR$/05_music.py" afterDir="false" />
-    </list>
+    <list default="true" id="7d46622b-907b-4cc9-ba5f-76397f34ee86" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +176,7 @@
       <workItem from="1677065436258" duration="83000" />
       <workItem from="1677065571795" duration="69000" />
       <workItem from="1677065646298" duration="2628000" />
-      <workItem from="1677074230690" duration="1576000" />
+      <workItem from="1677074230690" duration="1859000" />
     </task>
     <servers />
   </component>
@@ -210,6 +201,7 @@
     <SUITE FILE_PATH="coverage/01_first_steps_in_oop_exercise$01_shop.coverage" NAME="01_shop Coverage Results" MODIFIED="1677003347851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/01_first_steps_in_oop_lab$04_car.coverage" NAME="04_car Coverage Results" MODIFIED="1677075615442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/01_first_steps_in_oop_lab$02_scope_mess.coverage" NAME="02_scope_mess Coverage Results" MODIFIED="1677074984077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/01_first_steps_in_oop_lab$05_music.coverage" NAME="05_music Coverage Results" MODIFIED="1677075911234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/01_first_steps_in_oop_lab$01_rhombus_of_stars.coverage" NAME="01_rhombus_of_stars Coverage Results" MODIFIED="1677074692367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/01_first_steps_in_oop_lab$03_class_book.coverage" NAME="03_class_book Coverage Results" MODIFIED="1677075451892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
