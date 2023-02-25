@@ -1,5 +1,5 @@
 def total_seconds(hours, minutes, seconds):
-    return hours * 3600 + minutes * 60 + seconds % 86400
+    return (hours * 3600 + minutes * 60 + seconds) % 86400
 
 
 """Use this to convert time to total seconds."""
