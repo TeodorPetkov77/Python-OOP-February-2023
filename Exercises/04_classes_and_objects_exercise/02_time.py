@@ -34,7 +34,7 @@ class Time:
         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
     def next_second(self):
-        seconds = total_seconds(self.hours, self.minutes, self.seconds) + 1
+        seconds = time_to_total_seconds(self.hours, self.minutes, self.seconds) + 1
         self.hours, self.minutes, self.seconds = convert_seconds_to_time(seconds)
         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
