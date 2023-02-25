@@ -1,3 +1,22 @@
+def total_seconds(hours, minutes, seconds):
+    return hours * 3600 + minutes * 60 + seconds % 86400
+
+
+"""Use this to convert time to total seconds."""
+
+
+def convert_seconds_to_time(total_seconds):
+    total_seconds %= 86400
+    seconds = total_seconds % 60
+    minutes = total_seconds // 60 % 60
+    hours = total_seconds // 3600
+
+    return hours, minutes, seconds
+
+
+"""Use this to convert total seconds to time."""
+
+
 class Time:
     max_hours = 23
     max_minutes = 59
@@ -15,12 +34,8 @@ class Time:
         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
     def next_second(self):
-        self.seconds += 1
-        self.minutes += 1 if self.seconds > 59 else 0
-        self.hours += 1 if self.minutes > 59 else 0
-        self.seconds = 0 if self.seconds > 59 else self.seconds
-        self.minutes = 0 if self.minutes > 59 else self.minutes
-        self.hours = 0 if self.hours > 23 else self.hours
+        seconds = total_seconds(self.hours, self.minutes, self.seconds) + 1
+        self.hours, self.minutes, self.seconds = convert_seconds_to_time(seconds)
         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
 
