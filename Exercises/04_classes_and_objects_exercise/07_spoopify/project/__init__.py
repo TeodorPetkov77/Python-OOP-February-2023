@@ -15,6 +15,7 @@ print(band.add_album(album))
 print(band.remove_album("Initial D"))
 print(band.details())
 
+# https://judge.softuni.org/Contests/Compete/Index/1937#6
 
 # 7.	Spoopify
 # You are tasked to create three classes: a Song class, an Album class, and a Band class.
