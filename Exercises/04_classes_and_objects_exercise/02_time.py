@@ -38,7 +38,7 @@ class Time:
     def next_second(self):
         seconds = time_to_total_seconds(self.hours, self.minutes, self.seconds) + 1
         self.hours, self.minutes, self.seconds = seconds_to_time(seconds)
-        return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
+        return self.get_time()
 
 
 # ----------------------------------Solution N2----------------------------------
@@ -66,7 +66,7 @@ class Time:
 #         self.seconds = 0 if self.seconds > 59 else self.seconds
 #         self.minutes = 0 if self.minutes > 59 else self.minutes
 #         self.hours = 0 if self.hours > 23 else self.hours
-#         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
+#         return self.get_time()
 
 
 # https://judge.softuni.org/Contests/Compete/Index/1937#1
