@@ -1,4 +1,4 @@
-# Solution N1:
+# ---------------------------------Solution N1----------------------------------
 
 def time_to_total_seconds(hours, minutes, seconds):
     return (hours * 3600 + minutes * 60 + seconds) % 86400
@@ -41,7 +41,7 @@ class Time:
         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
 
-# Solution N2:
+# ----------------------------------Solution N2----------------------------------
 
 # class Time:
 #     max_hours = 23
