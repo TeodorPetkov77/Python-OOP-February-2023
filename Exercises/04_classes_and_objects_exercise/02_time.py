@@ -1,3 +1,5 @@
+# Solution N1:
+
 def time_to_total_seconds(hours, minutes, seconds):
     return (hours * 3600 + minutes * 60 + seconds) % 86400
 
@@ -35,8 +37,36 @@ class Time:
 
     def next_second(self):
         seconds = time_to_total_seconds(self.hours, self.minutes, self.seconds) + 1
-        self.hours, self.minutes, self.seconds = convert_seconds_to_time(seconds)
+        self.hours, self.minutes, self.seconds = seconds_to_time(seconds)
         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
+
+
+# Solution N2:
+
+# class Time:
+#     max_hours = 23
+#     max_minutes = 59
+#     max_seconds = 59
+#
+#     def __init__(self, hours, minutes, seconds):
+#         self.hours = hours
+#         self.minutes = minutes
+#         self.seconds = seconds
+#
+#     def set_time(self, hours, minutes, seconds):
+#         self.hours, self.minutes, self.seconds = hours, minutes, seconds
+#
+#     def get_time(self):
+#         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
+#
+#     def next_second(self):
+#         self.seconds += 1
+#         self.minutes += 1 if self.seconds > 59 else 0
+#         self.hours += 1 if self.minutes > 59 else 0
+#         self.seconds = 0 if self.seconds > 59 else self.seconds
+#         self.minutes = 0 if self.minutes > 59 else self.minutes
+#         self.hours = 0 if self.hours > 23 else self.hours
+#         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
 
 # https://judge.softuni.org/Contests/Compete/Index/1937#1
