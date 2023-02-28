@@ -23,11 +23,10 @@ class Library:
             return f"{book_name} successfully rented for the " \
                    f"next {days_to_return} days!"
 
-        for username, books in self.rented_books.items():
-            for book, days in books.items():
-                if book == book_name:
-                    return f'The book "{book_name}" is already rented ' \
-                           f'and will be available in {days} days!'
+        for books in self.rented_books.values():
+            if book_name in books:
+                return f'The book "{book_name}" is already rented ' \
+                       f'and will be available in {books[book_name]} days!'
 
     def return_book(self, author: str, book_name: str, user):
 
@@ -38,8 +37,6 @@ class Library:
 
         else:
             return f"{user.username} doesn't have this book in his/her records!"
-
-
 
 
 user = User(12, 'Peter')
