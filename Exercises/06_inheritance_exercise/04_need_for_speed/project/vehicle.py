@@ -1,8 +1,8 @@
 class Vehicle:
     DEFAULT_FUEL_CONSUMPTION = 1.25
 
-    def __init__(self, fuel: float, horse_power: int, fuel_consumption=DEFAULT_FUEL_CONSUMPTION):
-        self.fuel_consumption = fuel_consumption
+    def __init__(self, fuel: float, horse_power: int):
+        self.fuel_consumption = self.DEFAULT_FUEL_CONSUMPTION
         self.fuel = fuel
         self.horse_power = horse_power
 
