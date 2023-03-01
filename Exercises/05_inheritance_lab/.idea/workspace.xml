@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc7bba0-95f6-43c9-9a7c-1850ba39ce23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/05_inheritance_lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_single_inheritance/project/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_single_inheritance/project/dog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_multiple_inheritance/project/employee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_multiple_inheritance/project/person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_multiple_inheritance/project/teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_multilevel_inheritance/project/car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_multilevel_inheritance/project/sports_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_multilevel_inheritance/project/vehicle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_hierarchical_inheritance/project.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_hierarchical_inheritance/project/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_hierarchical_inheritance/project/cat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_hierarchical_inheritance/project/dog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_stack_of_strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_food/project/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_food/project/food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_food/project/fruit.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_food/project/fruit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_hierarchical_inheritance/project.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677663219912</updated>
-      <workItem from="1677663221064" duration="3508000" />
+      <workItem from="1677663221064" duration="3617000" />
     </task>
     <servers />
   </component>
