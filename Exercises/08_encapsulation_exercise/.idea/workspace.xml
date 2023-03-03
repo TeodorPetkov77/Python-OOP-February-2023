@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7eb9848-9c19-469f-b097-6585bd2e9250" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/.idea/07_encapsulation_lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/01_person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/02_mammal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/03_profile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/04_email_validator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_encapsulation_lab/05_account.py" afterDir="false" />
-    </list>
+    <list default="true" id="e7eb9848-9c19-469f-b097-6585bd2e9250" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,14 +17,14 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Programming/Python OOP/Python-OOP-February-2023/Exercises/08_encapsulation_exercise"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Programming/Python OOP/Python-OOP-February-2023/Exercises/08_encapsulation_exercise&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +34,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677837317830</updated>
       <workItem from="1677837318957" duration="19000" />
+      <workItem from="1677848079181" duration="4000" />
     </task>
     <servers />
   </component>
