@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7eb9848-9c19-469f-b097-6585bd2e9250" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/caretaker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/cheetah.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/keeper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/lion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/tiger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/vet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_wild_cat_zoo/project/zoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/08_encapsulation_exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/08_encapsulation_exercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e7eb9848-9c19-469f-b097-6585bd2e9250" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +122,7 @@
       <updated>1677837317830</updated>
       <workItem from="1677837318957" duration="19000" />
       <workItem from="1677848079181" duration="4000" />
-      <workItem from="1678092356182" duration="5106000" />
+      <workItem from="1678092356182" duration="5204000" />
     </task>
     <servers />
   </component>
