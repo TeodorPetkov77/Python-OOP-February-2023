@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7eb9848-9c19-469f-b097-6585bd2e9250" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03_football_team_generator/project/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_football_team_generator/project/team.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_football_team_generator/project/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/08_encapsulation_exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/08_encapsulation_exercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_football_team_generator/project/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_football_team_generator/project/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     "last_opened_file_path": "F:/Programming/Python OOP/Python-OOP-February-2023/Exercises/08_encapsulation_exercise"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test.Tests.test_player_init">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="08_encapsulation_exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test.Tests.test_player_init" />
         <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python tests.Python tests for test.Tests.test_player_init" />
         <item itemvalue="Python.test code" />
         <item itemvalue="Python.test_code" />
         <item itemvalue="Python.topping" />
@@ -168,7 +167,7 @@
       <workItem from="1677837318957" duration="19000" />
       <workItem from="1677848079181" duration="4000" />
       <workItem from="1678092356182" duration="5204000" />
-      <workItem from="1678106170515" duration="6891000" />
+      <workItem from="1678106170515" duration="7193000" />
     </task>
     <servers />
   </component>
