@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7eb9848-9c19-469f-b097-6585bd2e9250" name="Changes" comment="" />
+    <list default="true" id="e7eb9848-9c19-469f-b097-6585bd2e9250" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +31,15 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Programming/Python OOP/Python-OOP-February-2023/Exercises/08_encapsulation_exercise"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Programming/Python OOP/Python-OOP-February-2023/Exercises/08_encapsulation_exercise&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.coffee">
     <configuration name="coffee" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="08_encapsulation_exercise" />
@@ -171,6 +173,7 @@
       <workItem from="1677848079181" duration="4000" />
       <workItem from="1678092356182" duration="5204000" />
       <workItem from="1678106170515" duration="11770000" />
+      <workItem from="1678140980233" duration="138000" />
     </task>
     <servers />
   </component>
