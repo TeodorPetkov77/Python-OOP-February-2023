@@ -55,10 +55,11 @@ class MovieWorld:
         return f"{customer.name} does not have that DVD"
 
     def __repr__(self):
-        result = []
-        [result.append(str(c)) for c in self.customers]
-        [result.append(str(d)) for d in self.dvds]
-        return "\n".join(result)
+        result = "\n".join([
+            *[str(c) for c in self.customers],
+            *[str(d) for d in self.dvds]
+        ])
+        return result
 
 
 # https://judge.softuni.org/Contests/Compete/Index/2431#1
