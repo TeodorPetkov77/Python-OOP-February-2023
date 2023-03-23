@@ -1,7 +1,7 @@
-from project.computer_types.desktop_computer import DesktopComputer
+from project.computer_types.computer import Computer
 
 
-class Laptop(DesktopComputer):
+class Laptop(Computer):
 
     @property
     def computer_type(self):

@@ -61,8 +61,8 @@ class Computer(ABC):
 
     def configure_computer(self, processor: str, ram: int):
         if processor not in self.available_cpus:
-            raise ValueError(
-                f"{processor} is not compatible with {self.computer_type} {self.manufacturer} {self.model}!")
+            raise ValueError(f"{processor} is not compatible with "
+                             f"{self.computer_type} {self.manufacturer} {self.model}!")
 
         if ram not in self.available_ram:
             raise ValueError(f"{ram}GB RAM is not compatible with "
@@ -73,9 +73,7 @@ class Computer(ABC):
         self.price += self.available_ram[ram]
         self.ram = ram
 
-        return f"Created {self.manufacturer} {self.model} with " \
-               f"{self.processor} and {self.ram}GB RAM for {self.price}$."
+        return f"Created {self.manufacturer} {self.model} with {self.processor} and {self.ram}GB RAM for {self.price}$."
 
     def __repr__(self):
-        return f"{self.__manufacturer} {self.__model} with " \
-               f"{self.processor} and {self.ram}GB RAM"
+        return f"{self.manufacturer} {self.model} with {self.processor} and {self.ram}GB RAM"
