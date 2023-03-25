@@ -1,6 +1,6 @@
 def even_parameters(function):
     def wrapper(*args):
-        check = any(filter(lambda x: isinstance(x, str) or x % 2 != 0, args))
+        check = any(filter(lambda x: not isinstance(x, int) or x % 2 != 0, args))
         if check:
             return "Please use only even numbers!"
         return function(*args)
@@ -13,7 +13,7 @@ def add(a, b):
     return a + b
 
 
-print(add(2, 4))
+print(add(2, 2))
 print(add("Peter", 1))
 
 
