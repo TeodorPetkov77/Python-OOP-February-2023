@@ -18,3 +18,5 @@ class Worker:
 
     def get_info(self):
         return f'{self.name} has saved {self.money} money.'
+
+
