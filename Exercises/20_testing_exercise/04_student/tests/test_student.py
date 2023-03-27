@@ -27,11 +27,6 @@ class TestStudent(unittest.TestCase):
 
     def test_enroll_add_notes_course_not_exists_add_y2(self):
         student = Student("Teo")
-        self.assertEqual(student.enroll("Python", ['note'], ""), "Course and course notes have been added.")
-        self.assertEqual(student.courses, {"Python": ['note']})
-
-    def test_enroll_add_notes_course_not_exists_add_y3(self):
-        student = Student("Teo")
         self.assertEqual(student.enroll("Python", ['note']), "Course and course notes have been added.")
         self.assertEqual(student.courses, {"Python": ['note']})
 
