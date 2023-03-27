@@ -54,4 +54,4 @@ class TestHero(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-# https://judge.softuni.org/Contests/Compete/Index/1949#3
+# https://judge.softuni.org/Contests/Compete/Index/1949#2
