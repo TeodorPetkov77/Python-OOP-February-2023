@@ -83,6 +83,9 @@ class ConcertTrackerApp:
         concert = [c for c in self.concerts if c.place == concert_place][0]
         musician_types = [m.__class__.__name__ for m in band.members]
 
+        if len(set(musician_types)) < 3:
+            raise Exception(f"{band_name} can't start the concert because it doesn't have enough members!")
+
         rock_req = {
             "Drummer": ["play the drums with drumsticks"],
             "Singer": ["sing high pitch notes"],
@@ -107,9 +110,6 @@ class ConcertTrackerApp:
             "Jazz": jazz_req
         }
 
-        if len(set(musician_types)) < 3:
-            raise Exception(f"{band_name} can't start the concert because it doesn't have enough members!")
-
         genre_req = chosen_genre_req[concert.genre]
 
         for musician_type, requirements in genre_req.items():
@@ -120,4 +120,3 @@ class ConcertTrackerApp:
 
         profit = (concert.audience * concert.ticket_price) - concert.expenses
         return f"{band_name} gained {profit:.2f}$ from the {concert.genre} concert in {concert_place}."
-

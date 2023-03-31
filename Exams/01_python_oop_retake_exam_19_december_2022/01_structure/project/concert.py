@@ -7,6 +7,10 @@ class Concert:
         self.place = place
 
     @property
+    def available_concerts(self):
+        return "Metal", "Rock", "Jazz"
+
+    @property
     def genre(self):
         return self.__genre
 
@@ -15,10 +19,6 @@ class Concert:
         if value not in self.available_concerts:
             raise ValueError(f"Our group doesn't play {value}!")
         self.__genre = value
-
-    @property
-    def available_concerts(self):
-        return "Metal", "Rock", "Jazz"
 
     @property
     def audience(self):
@@ -36,7 +36,7 @@ class Concert:
 
     @ticket_price.setter
     def ticket_price(self, value):
-        if value < 1.00:
+        if value < 1:
             raise ValueError("Ticket price must be at least 1.00$!")
         self.__ticket_price = value
 
@@ -46,7 +46,7 @@ class Concert:
 
     @expenses.setter
     def expenses(self, value):
-        if value < 0.00:
+        if value < 0:
             raise ValueError("Expenses cannot be a negative number!")
         self.__expenses = value
 
@@ -56,7 +56,7 @@ class Concert:
 
     @place.setter
     def place(self, value):
-        if len(value) < 2 or not value.strip():
+        if len(value.strip()) < 2:
             raise ValueError("Place must contain at least 2 chars. It cannot be empty!")
         self.__place = value
 

@@ -20,6 +20,26 @@ class Musician(ABC):
         return f"{self.name} learned to {new_skill}."
 
     @property
+    def age(self):
+        return self.__age
+
+    @age.setter
+    def age(self, value):
+        if value < 16:
+            raise ValueError("Musicians should be at least 16 years old!")
+        self.__age = value
+
+    @property
+    def name(self):
+        return self.__name
+
+    @name.setter
+    def name(self, value):
+        if not value.strip():
+            raise ValueError("Musician name cannot be empty!")
+        self.__name = value
+
+    @property
     @abstractmethod
     def available_skills(self):
         pass
