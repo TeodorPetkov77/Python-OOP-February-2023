@@ -40,3 +40,4 @@ class ShoppingCart:
         if total_sum > self.budget:
             raise ValueError(f"Not enough money to buy the products! Over budget with {total_sum - self.budget:.2f}lv!")
         return f'Products were successfully bought! Total cost: {total_sum:.2f}lv.'
+
