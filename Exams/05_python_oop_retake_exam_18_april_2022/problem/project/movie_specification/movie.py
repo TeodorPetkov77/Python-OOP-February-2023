@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+
 from project.user import User
 
 
@@ -6,7 +7,7 @@ class Movie(ABC):
     def __init__(self, title: str, year: int, owner: User, age_restriction: int):
         self.title: str = title
         self.year: int = year
-        self.owner: User = owner
+        self.owner = owner
         self.age_restriction: int = age_restriction
         self.likes: int = 0
 
@@ -40,20 +41,8 @@ class Movie(ABC):
             raise ValueError("The owner must be an object of type User!")
         self.__owner = value
 
-    @property
-    def age_restriction(self):
-        return self.__age_restriction
-
-    @age_restriction.setter
-    def age_restriction(self, value):
-        if value < self.age_restriction_limit:
-            raise ValueError(f"{self.__class__.__name__} movies must be "
-                             f"restricted for audience under {self.age_restriction_limit}!")
-        self.__age_restriction = value
-
-    @property
     @abstractmethod
-    def age_restriction_limit(self):
+    def details(self):
         ...
 
     def is_owner(self, username: str):
@@ -64,10 +53,3 @@ class Movie(ABC):
 
     def receive_dislike(self):
         self.likes -= 1
-
-    def details(self):
-        return f"{self.__class__.__name__} - Title:{self.title}, " \
-               f"Year:{self.year}, " \
-               f"Age restriction:{self.age_restriction}, " \
-               f"Likes:{self.likes}, " \
-               f"Owned by:{self.owner.username}"

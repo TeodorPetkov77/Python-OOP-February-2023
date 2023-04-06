@@ -7,5 +7,14 @@ class Fantasy(Movie):
         super().__init__(title, year, owner, age_restriction)
 
     @property
-    def age_restriction_limit(self):
-        return 6
+    def age_restriction(self):
+        return self.__age_restriction
+
+    @age_restriction.setter
+    def age_restriction(self, value):
+        if value < 6:
+            raise ValueError("Fantasy movies must be restricted for audience under 6 years!")
+        self.__age_restriction = value
+
+    def details(self):
+        return f"Fantasy - Title:{self.title}, Year:{self.year}, Age restriction:{self.age_restriction}, Likes:{self.likes}, Owned by:{self.owner.username}"

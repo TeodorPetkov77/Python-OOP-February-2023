@@ -121,4 +121,4 @@ class MovieApp:
         return result
 
 # https://judge.softuni.org/Contests/Practice/Index/3431#1
-# 135 / 150
+
